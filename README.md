@@ -4,7 +4,7 @@
 
 ## Getting Started
 The steps to clone and the project locally is : 
-git clone git@github.com:OsvaldoBC/Hello-world.git
+git clone git@github.com:OsvaldoBC/portfolio-setup.git
 
 ## Built With
 
@@ -16,7 +16,7 @@ git clone git@github.com:OsvaldoBC/Hello-world.git
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/OsvaldoBC)
+- GitHub: [@OsvaldoBC(https://github.com/OsvaldoBC)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/osvaldo-barrios-data-science)
 
 ## 🤝 Contributing
