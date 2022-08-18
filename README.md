@@ -14,10 +14,11 @@ git clone git@github.com:OsvaldoBC/portfolio-setup.git
 
 ## Authors
 
-👤 **Author1**
+👤 ** Osvaldo Barrios Cortina **
 
-- GitHub: [@OsvaldoBC(https://github.com/OsvaldoBC)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/osvaldo-barrios-data-science)
+- Twitter : [@OsvaldoBarrio20]
+- GitHub  : [@OsvaldoBC](https://github.com/OsvaldoBC)
+- LinkedIn: [osvaldo-barrios-data-science](https://linkedin.com/in/osvaldo-barrios-data-science)
 
 ## 🤝 Contributing
 
