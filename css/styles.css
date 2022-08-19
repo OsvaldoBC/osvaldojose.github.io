@@ -19,24 +19,29 @@ body {
   color: #6070ff;
   font-size: 18px;
 }
+
 .logo-osvaldo{
   text-decoration: none;
 }
+
 .title {
   display: flex;
   color: #172b4d;
   font-size: 40px;
 }
+
 .description {
   display: flex;
   color: #344563;
   font-size: 16px;
 }
+
 .connect {
   display: flex;
   color: #7f8cff;
   font-size: 16px;
 }
+
 .social-media {
   display: flex;
   align-items: center;
