@@ -1,3 +1,48 @@
-.heading {
-  color: blue;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'poppins', sans-serif;
+  background-image: url(../img/header-shapes.png);
+  background-repeat: no-repeat;
+  max-width: 375px;
+  height: 588px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.navbar {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #6070ff;
+  font-size: 18px;
+}
+.logo-osvaldo{
+  text-decoration: none;
+}
+.title {
+  display: flex;
+  color: #172b4d;
+  font-size: 40px;
+}
+.description {
+  display: flex;
+  color: #344563;
+  font-size: 16px;
+}
+.connect {
+  display: flex;
+  color: #7f8cff;
+  font-size: 16px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  list-style-type: none;
 }
