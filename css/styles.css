@@ -18,10 +18,19 @@ body {
   align-items: center;
   color: #6070ff;
   font-size: 18px;
+  margin-right: 50px;
+  margin-left: 30px;
+  max-width: 350px;
 }
 
 .logo-osvaldo {
   text-decoration: none;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 900;
 }
 
 .title {
@@ -46,6 +55,46 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.icon1 {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 70%;
+  bottom: 18.88%;
+}
+
+.icon2 {
+  position: absolute;
+  left: 16.8%;
+  right: 81.87%;
+  top: 70%;
+  bottom: 19%;
+}
+
+.icon3 {
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 70%;
+  bottom: 19%;
+}
+
+.icon4 {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 70%;
+  bottom: 19%;
+}
+
+.icon5 {
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 70%;
+  bottom: 19%;
 }
 
 ul {
