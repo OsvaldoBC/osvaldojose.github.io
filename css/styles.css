@@ -129,10 +129,9 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   text-align: left;
   gap: 15px;
-  margin-right: 43px;
   font-weight: 700;
   margin-top: 1px;
   margin-right: 1px;
