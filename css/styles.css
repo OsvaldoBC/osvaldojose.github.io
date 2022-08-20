@@ -156,6 +156,7 @@ ul {
   border: none;
   margin-left: 16px;
   padding-top: 10px;
+  padding-left: 1px;
 }
 
 .int-button {
