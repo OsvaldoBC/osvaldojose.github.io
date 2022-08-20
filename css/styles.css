@@ -52,50 +52,198 @@ body {
 
 .social-media {
   display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.icon1 {
-  position: absolute;
-  left: 6.4%;
-  right: 88.27%;
-  top: 70%;
-  bottom: 18.88%;
-}
-
-.icon2 {
-  position: absolute;
-  left: 16.8%;
-  right: 81.87%;
-  top: 70%;
-  bottom: 19%;
-}
-
-.icon3 {
-  position: absolute;
-  left: 27.47%;
-  right: 67.2%;
-  top: 70%;
-  bottom: 19%;
-}
-
-.icon4 {
-  position: absolute;
-  left: 38.13%;
-  right: 57.07%;
-  top: 70%;
-  bottom: 19%;
-}
-
-.icon5 {
-  position: absolute;
-  left: 48%;
-  right: 48.22%;
-  top: 70%;
-  bottom: 19%;
+  justify-content:space-around;
+  color: #fff5e1;
+  margin-top: 20px;
 }
 
 ul {
   list-style-type: none;
 }
+
+.garden {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    row-gap: 20px;
+  }
+
+.water1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 16px;
+    width: 327px;
+    height: 522px;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+
+  }
+  .water2 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 16px;
+      width: 327px;
+      height: 522px;
+      border: 1px solid #DFE1E6;
+      border-radius: 16px;
+      background-color: #FFFFFF;
+
+    }
+    .water3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 16px;
+        width: 327px;
+        height: 522px;
+        border: 1px solid #DFE1E6;
+        border-radius: 16px;
+        background-color: #FFFFFF;
+
+      }
+      .water4 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 16px;
+          width: 327px;
+          height: 522px;
+          border: 1px solid #DFE1E6;
+          border-radius: 16px;
+          background-color: #FFFFFF;
+
+        }
+
+        .tonic {
+          align-items: flex-start;
+          color: #172B4D;
+          font-size: 32px;
+          font-weight: 700;
+          margin-left: 16px;
+          margin-top: 10px;
+          margin-bottom: 0px;
+
+        }
+
+        .info {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          text-align: left;
+          gap: 15px;
+          margin-right: 43px;
+          font-weight: 700;
+          margin-left: 16px;
+        }
+
+        .project-detail {
+          text-align: left;
+          color: #344563;
+          font-size: 15px;
+          margin-right: 24px;
+          height: 36px;
+          margin-left: 16px;
+        }
+        .buttons {
+          display: flex;
+          text-align: left;
+          gap: 15px;
+          border: none;
+          margin-left: 16px;
+          padding-top: 10px;
+        }
+        .int-button {
+          align-items: center;
+          align-content: center;
+          background: #EBEBFF;
+          border: none;
+          border-radius: 8px;
+          color: #6070FF;
+        }
+
+        .see {
+          background-color: #FFFFFF;
+          padding: 12px;
+          gap: 10px;
+          border: 1px solid #6070FF;
+          border-radius: 8px;
+          color: #396DF2;
+          font-size: 17px;
+          font-weight: 700;
+          margin-left: 16px;
+        }
+
+        .project2 {
+          margin-left: 16px;
+        }
+
+        .multi-post {
+          align-items: flex-start;
+          color: #172b4d;
+          font-size: 32px;
+          font-weight: 700;
+          margin-left: 16px;
+          margin-top: 10px;
+          margin-bottom: 1px;
+        }
+
+        .garden2 {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-columns: minmax(300px, 327px);
+          height: 1200px;
+          border: 1px solid #dfe1e6;
+          border-radius: 16px;
+          background-color: #fff;
+          margin-top: 80px;
+        }
+
+        .about-me {
+          font-weight: 700;
+          font-size: 40px;
+          margin-left: 24px;
+          margin-top: 114px;
+        }
+
+        .about {
+          font-weight: 400;
+          font-size: 16px;
+          color: #344563;
+          margin-left: 24px;
+        }
+
+        .my-resume-button {
+          background-color: #fff;
+          padding: 12px;
+          gap: 10px;
+          border: 1px solid #6070ff;
+          border-radius: 8px;
+          color: #396df2;
+          font-size: 17px;
+          font-weight: 700;
+          margin-left: 16px;
+        }
+
+        .languages {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 20px;
+          font-weight: 700;
+          margin-left: 24px;
+        }
+        .devl {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: left;
+          align-items: center;
+          font-size: 15px;
+          gap: 12px;
+          margin-left: 24px;
+          background: #f7f7f9;
+          border-radius: 8px;
+        }
