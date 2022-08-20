@@ -129,12 +129,15 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items:center;
   text-align: left;
   gap: 15px;
   margin-right: 43px;
   font-weight: 700;
-  margin-left: 16px;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  padding-left: 1px;
 }
 
 .project-detail {
@@ -144,6 +147,7 @@ ul {
   margin-right: 24px;
   height: 36px;
   margin-left: 16px;
+  margin-top: 1px;
 }
 
 .buttons {
@@ -188,6 +192,7 @@ ul {
   margin-left: 16px;
   margin-top: 10px;
   margin-bottom: 1px;
+  line-height: 44px;
 }
 
 .garden2 {
