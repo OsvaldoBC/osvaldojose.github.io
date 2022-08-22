@@ -160,7 +160,8 @@ ul {
 }
 
 .buttons li {
-  
+  float: left;
+  margin-right: 12px;
 }
 
 .int-button {
