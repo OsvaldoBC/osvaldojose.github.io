@@ -268,3 +268,32 @@ ul {
   color: #7a869a;
   font-size: 13px;
 }
+
+.form-container {
+  display: grid;
+  grid-template-rows: 100%;
+}
+
+.form {
+  display: flex;
+  background-image: url(../img/contact-form-shapes-mobile.png);
+  flex-direction: column;
+  padding: 16px;
+  width: 327px;
+  height:auto;
+  border: 2px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: #6070ff;
+}
+
+
+.title1 {
+  display: flex;
+  color: white;
+  font-size: 40px;
+}
+
+.form-p {
+  display: flex;
+  color: white;
+}
