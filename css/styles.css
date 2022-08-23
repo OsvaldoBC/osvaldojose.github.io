@@ -150,9 +150,9 @@ ul {
 }
 
 .buttons {
-  /* display: flex; */
+  display: flex;
   text-align: left;
-  /* gap: 12px; */
+  gap: 12px;
   border: none;
   margin-left: 16px;
   padding-top: 10px;
@@ -279,14 +279,13 @@ ul {
   background-image: url(../img/contact-form-shapes-mobile.png);
   flex-direction: column;
   padding: 16px;
-  width:auto;
-  height:auto;
+  width: auto;
+  height: auto;
   border: 2px solid #dfe1e6;
   border-radius: 50px 0 0 0;
   background-color: #6070ff;
   box-sizing: border-box;
 }
-
 
 .title1 {
   display: flex;
@@ -299,16 +298,16 @@ ul {
   color: white;
 }
 
-.form-control{
+.form-control {
   padding: 15px 38px 15px 16px;
   width: 100%;
-  border-radius:8px;
+  border-radius: 8px;
   border: none;
   margin-bottom: 20px;
   box-sizing: border-box;
 }
 
-.form-container textarea{
+.form-container textarea {
   height: 170px;
 }
 
@@ -323,8 +322,6 @@ button.form_btn {
 }
 
 button.form_btn:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
 }
-
-
