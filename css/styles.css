@@ -279,11 +279,12 @@ ul {
   background-image: url(../img/contact-form-shapes-mobile.png);
   flex-direction: column;
   padding: 16px;
-  width: 327px;
+  width:auto;
   height:auto;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #6070ff;
+  box-sizing: border-box;
 }
 
 
@@ -296,4 +297,15 @@ ul {
 .form-p {
   display: flex;
   color: white;
+}
+
+.form-control{
+  padding-left: 16px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 38px;
+  width: auto;
+  border-radius:8px;
+  border: none;
+  margin-bottom: 20px;
 }
