@@ -159,6 +159,11 @@ ul {
   padding-left: 1px;
 }
 
+.buttons li {
+  float: left;
+  margin-right: 12px;
+}
+
 .int-button {
   align-items: center;
   align-content: center;
@@ -262,4 +267,61 @@ ul {
 .tonic-detail2 {
   color: #7a869a;
   font-size: 13px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-rows: 100%;
+}
+
+.form {
+  display: flex;
+  background-image: url(../img/contact-form-shapes-mobile.png);
+  flex-direction: column;
+  padding: 16px;
+  width: auto;
+  height: auto;
+  border: 2px solid #dfe1e6;
+  border-radius: 50px 0 0 0;
+  background-color: #6070ff;
+  box-sizing: border-box;
+}
+
+.title1 {
+  display: flex;
+  color: white;
+  font-size: 40px;
+}
+
+.form-p {
+  display: flex;
+  color: white;
+}
+
+.form-control {
+  padding: 15px 38px 15px 16px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  height: 170px;
+}
+
+button.form_btn {
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+button.form_btn:hover {
+  background-color: #6070ff;
+  color: white;
 }
