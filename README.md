@@ -19,6 +19,12 @@ git clone git@github.com:OsvaldoBC/portfolio-setup.git
 - GitHub  : [@OsvaldoBC](https://github.com/OsvaldoBC)
 - LinkedIn: [osvaldo-barrios-data-science](https://linkedin.com/in/osvaldo-barrios-data-science)
 
+👤 ** Mauricio Mendoza **
+
+- Twitter : [rbreva](https://twitter.com/rbreva)
+- GitHub  : [@rbreva](https://github.com/rbreva)
+- LinkedIn: [r-mauricio-mendoza-huerta-0782a9166](https://www.linkedin.com/in/r-mauricio-mendoza-huerta-0782a9166)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
