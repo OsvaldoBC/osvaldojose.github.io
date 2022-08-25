@@ -2,26 +2,41 @@
 
 body {
   font-family: 'poppins', sans-serif;
-  background-image: url(../img/header-shapes.png);
-  background-repeat: no-repeat;
-  max-width: 375px;
-  height: 588px;
-  margin-left: 24px;
-  margin-right: 24px;
+  width: auto;
+  height: auto;
 }
 
 .navbar {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
   color: #6070ff;
   font-size: 18px;
-  margin-right: 50px;
-  margin-left: 30px;
-  max-width: 350px;
 }
+
+.box-menu-1{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .box-menu {
+    display: none;
+  }
+  .box-menu-1 {
+    display: flex;
+
+   }
+   .box-menu-1 li {
+     justify-content: space-around;
+   }
+
+   .box-menu-1 a {
+     text-decoration: none;
+     color: #344563;
+   }
+  }
 
 .logo-osvaldo {
   text-decoration: none;
@@ -30,6 +45,30 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+}
+
+.container {
+  width: 100%;
+  margin-top: 4.8rem;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../img/header-shapes.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .container {
+    background-image: url(./img/Header-big.png);
+  }
 }
 
 .title {
@@ -72,12 +111,12 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 16px;
-  width: 327px;
-  height: 522px;
+  height: auto;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
 }
+
 
 .water2 {
   display: flex;
@@ -85,7 +124,7 @@ ul {
   flex-wrap: wrap;
   padding: 16px;
   width: 327px;
-  height: 522px;
+  height: auto;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
@@ -97,7 +136,7 @@ ul {
   flex-wrap: wrap;
   padding: 16px;
   width: 327px;
-  height: 522px;
+  height: auto;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
@@ -109,7 +148,7 @@ ul {
   flex-wrap: wrap;
   padding: 16px;
   width: 327px;
-  height: 522px;
+  height: auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
@@ -131,7 +170,6 @@ ul {
   justify-content: space-around;
   align-items: center;
   text-align: left;
-  gap: 15px;
   font-weight: 700;
   margin-top: 1px;
   margin-right: 1px;
@@ -152,7 +190,6 @@ ul {
 .buttons {
   display: flex;
   text-align: left;
-  gap: 12px;
   border: none;
   margin-left: 16px;
   padding-top: 10px;
@@ -176,6 +213,7 @@ ul {
 .see {
   background-color: #fff;
   padding: 12px;
+  padding-top: 3px
   gap: 10px;
   border: 1px solid #6070ff;
   border-radius: 8px;
