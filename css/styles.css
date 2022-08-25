@@ -26,9 +26,9 @@ body {
   }
 
   .box-menu-1 {
-    display:flex;
-    gap:30px;
-   }
+    display: flex;
+    gap: 30px;
+     }
 
   .box-menu-1 a {
     display: flex;
@@ -147,9 +147,9 @@ ul {
   display: none;
 }
 
-/*.contenido1{
+/*. contenido1{
   display: flex;
-}*/
+} */
 
 @media (min-width: 768px) {
   .portfolio {
@@ -238,9 +238,9 @@ ul {
 }
 
 .see:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
-  box-shadow: 0px 8px 16px #4053fc42;
+  box-shadow: 1px 8px 16px #4053fc42;
   font-size: 19px;
 }
 
