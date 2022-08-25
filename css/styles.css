@@ -225,7 +225,6 @@ ul {
 .see {
   background-color: #fff;
   padding: 12px;
-  padding-top: 3px
   gap: 10px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -233,6 +232,15 @@ ul {
   font-size: 17px;
   font-weight: 700;
   margin-left: 16px;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+.see:hover {
+  background-color: #6070FF;
+  color: #fff;
+  box-shadow: 0px 8px 16px #4053fc42;
+  font-size: 19px;
 }
 
 .project2 {
