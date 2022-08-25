@@ -28,7 +28,7 @@ body {
   .box-menu-1 {
     display: flex;
     gap: 30px;
-     }
+  }
 
   .box-menu-1 a {
     display: flex;
@@ -146,10 +146,6 @@ ul {
   display: flex;
   display: none;
 }
-
-/*. contenido1{
-  display: flex;
-} */
 
 @media (min-width: 768px) {
   .portfolio {
