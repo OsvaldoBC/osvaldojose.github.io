@@ -120,10 +120,8 @@ ul {
 }
 
 .container1 {
-  display: flex;
   width: 100%;
   height: auto;
-  gap: 142px;
 }
 
 .card {
@@ -142,18 +140,15 @@ ul {
   display: flex;
   height: auto;
   width: 100%;
-  flex-direction: column;
-  flex-wrap: wrap;
   padding: 16px;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
+  flex-direction: column;
 }
 
-.contenido1 {
-  display: flex;
-  padding-left: 42px;
-  flex-direction: column;
+.contenido-lenguajes{
+  display flex:
 }
 
 .portfolio {
@@ -169,33 +164,6 @@ ul {
   display:none;
 }
 
-@media (min-width: 768px) {
-  .portfolio {
-    display: flex;
-    display: none;
-  }
-
-  .portfolio1 {
-    display: flex;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-  }
-
-
-  .contenido-mobil {
-    display: none;
-  }
-
-  .contenido-desktop {
-    display: flex;
-    flex-direction: column;
-  }
-
-
-}
 
 .tonic {
   align-items: flex-start;
@@ -224,7 +192,8 @@ ul {
   color: #344563;
   font-size: 15px;
   margin-right: 24px;
-  height: 36px;
+  height: auto;
+  width: auto;
   margin-left: 16px;
   margin-top: 1px;
 }
@@ -311,6 +280,7 @@ ul {
   font-size: 16px;
   color: #344563;
   margin-left: 24px;
+
 }
 
 .my-resume-button {
@@ -419,4 +389,102 @@ button.form_btn:hover {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
   row-gap: 20px;
+}
+
+.contenido-form {
+  display: flex;
+}
+
+/*      Desktop Style     */
+
+@media (min-width: 768px) {
+  .portfolio {
+    display: flex;
+    display: none;
+  }
+
+  .portfolio1 {
+    display: flex;
+    width: auto;
+  }
+
+  .card-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project-detail {
+    width: 569px
+  }
+
+  .contenido1{
+    display: flex;
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .contenido-mobil {
+    display: none;
+  }
+
+  .contenido-desktop {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+.contenido-lenguajes {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    background-image: url(../img/contact-background-big.png);
+    background-repeat: no-repeat;
+    width: 1220px;
+    align-items: center;
+}
+
+.form-control {
+    display: flex;
+    width: 569px;
+}
+
+.form-p {
+    display: flex;
+    width: 569px;
+
+}
+
+.title1 {
+  display: flex;
+  color: white;
+  width: 569px;
+  font-size: 40px;
+}
+
+.form-container {
+  display: flex;
+  width: auto;
+}
+
+.contenido-form {
+  display: flex;
+  width: 569px;
+}
+.hero {
+  height: 916px;
+}
+
 }
