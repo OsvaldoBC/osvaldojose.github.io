@@ -2,25 +2,41 @@
 
 body {
   font-family: 'poppins', sans-serif;
-  background-image: url(../img/header-shapes.png);
-  background-repeat: no-repeat;
-  max-width: 375px;
-  height: 588px;
-  margin-left: 24px;
-  margin-right: 24px;
+  width: auto;
+  height: auto;
 }
 
 .navbar {
-  text-decoration: none;
   display: flex;
+  text-decoration: none;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: #6070ff;
   font-size: 18px;
-  margin-right: 50px;
-  margin-left: 30px;
-  max-width: 350px;
+}
+
+.box-menu-1 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .box-menu {
+    display: none;
+  }
+
+  .box-menu-1 {
+    display: flex;
+    gap: 30px;
+  }
+
+  .box-menu-1 a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    color: #344563;
+  }
 }
 
 .logo-osvaldo {
@@ -30,6 +46,47 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+}
+
+.logo-osvaldo:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-image: url(../img/header-shapes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    background-image: url(../img/header-big.png);
+    background-repeat: no-repeat;
+  }
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .title {
@@ -52,67 +109,58 @@ body {
 
 .social-media {
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
   color: #fff5e1;
   margin-top: 20px;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
 }
 
-.garden {
-  display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
-  row-gap: 20px;
+.container1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 142px;
 }
 
-.water1 {
+.card {
   display: flex;
+  height: auto;
+  width: 100%;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 16px;
-  width: 327px;
-  height: 522px;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
 }
 
-.water2 {
+.portfolio {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 16px;
-  width: 327px;
-  height: 522px;
-  border: 2px solid #dfe1e6;
-  border-radius: 16px;
-  background-color: #fff;
 }
 
-.water3 {
+.portfolio1 {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 16px;
-  width: 327px;
-  height: 522px;
-  border: 2px solid #dfe1e6;
-  border-radius: 16px;
-  background-color: #fff;
+  display: none;
 }
 
-.water4 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 16px;
-  width: 327px;
-  height: 522px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  background-color: #fff;
+@media (min-width: 768px) {
+  .portfolio {
+    display: flex;
+    display: none;
+  }
+
+  .portfolio1 {
+    display: flex;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .tonic {
@@ -131,7 +179,6 @@ ul {
   justify-content: space-around;
   align-items: center;
   text-align: left;
-  gap: 15px;
   font-weight: 700;
   margin-top: 1px;
   margin-right: 1px;
@@ -152,7 +199,6 @@ ul {
 .buttons {
   display: flex;
   text-align: left;
-  gap: 12px;
   border: none;
   margin-left: 16px;
   padding-top: 10px;
@@ -183,6 +229,15 @@ ul {
   font-size: 17px;
   font-weight: 700;
   margin-left: 16px;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+.see:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 1px 8px 16px #4053fc42;
+  font-size: 19px;
 }
 
 .project2 {
@@ -324,4 +379,10 @@ button.form_btn {
 button.form_btn:hover {
   background-color: #6070ff;
   color: white;
+}
+
+.garden {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  row-gap: 20px;
 }
