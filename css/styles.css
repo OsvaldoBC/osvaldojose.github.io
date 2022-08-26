@@ -7,16 +7,16 @@ body {
 }
 
 .navbar {
-  text-decoration: none;
   display: flex;
+  text-decoration: none;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   color: #6070ff;
   font-size: 18px;
 }
 
-.box-menu-1{
+.box-menu-1 {
   display: none;
 }
 
@@ -24,19 +24,20 @@ body {
   .box-menu {
     display: none;
   }
+
   .box-menu-1 {
     display: flex;
-
-   }
-   .box-menu-1 li {
-     justify-content: space-around;
-   }
-
-   .box-menu-1 a {
-     text-decoration: none;
-     color: #344563;
-   }
+    gap: 30px;
   }
+
+  .box-menu-1 a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    color: #344563;
+  }
+}
 
 .logo-osvaldo {
   text-decoration: none;
@@ -47,28 +48,45 @@ body {
   line-height: 20px;
 }
 
-.container {
-  width: 100%;
-  margin-top: 4.8rem;
+.logo-osvaldo:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
 }
 
-.hero {
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
   width: 100%;
   height: auto;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-image: url(../img/header-shapes.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position:center;
-  overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .container {
-    background-image: url(./img/Header-big.png);
+    display: flex;
+    background-image: url(../img/header-big.png);
+    background-repeat: no-repeat;
   }
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .title {
@@ -91,67 +109,92 @@ body {
 
 .social-media {
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
   color: #fff5e1;
   margin-top: 20px;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
 }
 
-.garden {
-  display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
-  row-gap: 20px;
+.container1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 142px;
 }
 
-.water1 {
+.card {
   display: flex;
+  height: auto;
+  width: 100%;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 16px;
-  height: auto;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
 }
 
-
-.water2 {
+.card1 {
   display: flex;
+  height: auto;
+  width: 100%;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 16px;
-  width: 327px;
-  height: auto;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
 }
 
-.water3 {
+.contenido1 {
   display: flex;
+  padding-left: 42px;
   flex-direction: column;
-  flex-wrap: wrap;
-  padding: 16px;
-  width: 327px;
-  height: auto;
-  border: 2px solid #dfe1e6;
-  border-radius: 16px;
-  background-color: #fff;
 }
 
-.water4 {
+.portfolio {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 16px;
-  width: 327px;
-  height: auto;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  background-color: #fff;
+}
+
+.portfolio1 {
+  display: flex;
+  display: none;
+}
+
+.contenido-desktop{
+  display:none;
+}
+
+@media (min-width: 768px) {
+  .portfolio {
+    display: flex;
+    display: none;
+  }
+
+  .portfolio1 {
+    display: flex;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .contenido-mobil {
+    display: none;
+  }
+
+  .contenido-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 }
 
 .tonic {
@@ -167,14 +210,13 @@ ul {
 .info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   text-align: left;
   font-weight: 700;
   margin-top: 1px;
   margin-right: 1px;
   margin-bottom: 1px;
-  padding-left: 1px;
+  gap: 20px;
+  padding-left: 20px;
 }
 
 .project-detail {
@@ -213,7 +255,6 @@ ul {
 .see {
   background-color: #fff;
   padding: 12px;
-  padding-top: 3px
   gap: 10px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -221,6 +262,15 @@ ul {
   font-size: 17px;
   font-weight: 700;
   margin-left: 16px;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+.see:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 1px 8px 16px #4053fc42;
+  font-size: 19px;
 }
 
 .project2 {
@@ -238,7 +288,7 @@ ul {
   line-height: 44px;
 }
 
-.garden2 {
+.card2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-columns: minmax(300px, 327px);
@@ -315,6 +365,7 @@ ul {
 .form {
   display: flex;
   background-image: url(../img/contact-form-shapes-mobile.png);
+  background-repeat: no-repeat;
   flex-direction: column;
   padding: 16px;
   width: auto;
@@ -362,4 +413,10 @@ button.form_btn {
 button.form_btn:hover {
   background-color: #6070ff;
   color: white;
+}
+
+.garden {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  row-gap: 20px;
 }
