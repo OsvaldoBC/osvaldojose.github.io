@@ -28,7 +28,7 @@ body {
   flex-direction: row;
   text-decoration: none;
   color: #344563;
-  }
+}
 
 .logo-osvaldo {
   text-decoration: none;
@@ -466,10 +466,6 @@ button.form_btn:hover {
     width: 500px;
   }
 
-  .social-media {
-    margin-left: 10px;
-  }
-
   .contenido-mobil {
     display: none;
   }
@@ -534,7 +530,7 @@ button.form_btn:hover {
   .connect {
     margin-left: 24px;
     padding-left: 0px;
-    }
+  }
 
   .social-media {
     margin-left: 24px;
