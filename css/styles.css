@@ -68,8 +68,10 @@ body {
   width: 100%;
   height: auto;
   background-image: url(../img/header-shapes.png);
-  background-size: cover;
+  background-size:contain;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 780px;
 }
 
 @media (min-width: 768px) {
@@ -77,6 +79,7 @@ body {
     display: flex;
     background-image: url(../img/header-big.png);
     background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
@@ -93,26 +96,58 @@ body {
   display: flex;
   color: #172b4d;
   font-size: 40px;
+  padding-top: 100px;
+  padding-left: 24px
+}
+
+@media (min-width: 768px) {
+  .title {
+    margin-left: 150px;
+    margin-top: 1px;
+    padding-top: 1px;
+  }
 }
 
 .description {
   display: flex;
   color: #344563;
   font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width: 768px) {
+  .description {
+    margin-left: 150px;
+    padding-right: 300px;
+  }
 }
 
 .connect {
   display: flex;
   color: #7f8cff;
   font-size: 16px;
+  padding-left: 24px;
+}
+
+@media (min-width: 768px) {
+  .connect {
+    margin-left: 150px;
+  }
 }
 
 .social-media {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   color: #fff5e1;
   margin-top: 20px;
-  padding: 0;
+  padding left: 10px;
+}
+
+@media (min-width: 768px) {
+  .social-media {
+    margin-left: 150px;
+  }
 }
 
 ul {
@@ -131,7 +166,7 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 16px;
-  border: 2px solid #dfe1e6;
+  border: 10px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
 }
@@ -241,6 +276,28 @@ ul {
   font-size: 19px;
 }
 
+.see1 {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 1px 8px 16px #4053fc42;
+  font-size: 17px;
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-left: 16px;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+.see1:hover {
+  background-color: #fff;
+  color: #396df2;
+  box-shadow: 1px 8px 16px #4053fc42;
+  font-size: 19px;
+}
+
 .project2 {
   margin-left: 16px;
 }
@@ -279,6 +336,9 @@ ul {
   font-size: 16px;
   color: #344563;
   margin-left: 24px;
+  width: auto;
+  margin-right: 30px;
+
 }
 
 .my-resume-button {
@@ -291,6 +351,11 @@ ul {
   font-size: 17px;
   font-weight: 700;
   margin-left: 16px;
+}
+
+.my-resume-button:hover {
+  color: #fff;
+  background-color: #6070ff;
 }
 
 .languages {
@@ -326,18 +391,20 @@ ul {
 }
 
 .form-container {
-  display: grid;
-  grid-template-rows: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .form {
   display: flex;
   background-image: url(../img/contact-form-shapes-mobile.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
   flex-direction: column;
   padding: 16px;
   width: auto;
-  height: auto;
+  height: 780px;
   border: 2px solid #dfe1e6;
   border-radius: 50px 0 0 0;
   background-color: #6070ff;
@@ -391,6 +458,14 @@ button.form_btn:hover {
 
 .contenido-form {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido-lenguajes {
+  display: flex;
+  flex-direction: column;
 }
 
 /*      Desktop Style     */
@@ -407,13 +482,16 @@ button.form_btn:hover {
   }
 
   .card-reverse {
+    display: flex;
     flex-direction: row-reverse;
+    flex-wrap: nowrap;
   }
 
-  .card {
+  /*.card {
     display: flex;
     flex-direction: row;
-  }
+    flex-wrap: nowrap;
+  } */
 
   .card1 {
     display: flex;
@@ -426,9 +504,26 @@ button.form_btn:hover {
 
   .contenido1 {
     display: flex;
-    width: 50%;
+    width: 40%;
     height: auto;
     flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .about-me {
+    margin-top: 30px;
+  }
+
+  .about {
+    width: 500px;
+  }
+
+  .connect {
+    margin-left: 10px;
+  }
+
+  .social-media {
+    margin-left: 10px;
   }
 
   .contenido-mobil {
@@ -443,14 +538,16 @@ button.form_btn:hover {
   }
 
   .contenido-lenguajes {
-    display: flex;
-  }
+      display: flex;
+      flex-direction: row;
+    }
 
   .form {
     display: flex;
     background-image: url(../img/contact-background-big.png);
     background-repeat: no-repeat;
-    width: 1220px;
+    background-size: contain;
+    background-position: left;
     align-items: center;
   }
 
@@ -471,17 +568,13 @@ button.form_btn:hover {
     font-size: 40px;
   }
 
-  .form-container {
-    display: flex;
-    width: auto;
-  }
-
-  .contenido-form {
-    display: flex;
-    width: 569px;
-  }
-
   .hero {
     height: 916px;
+  }
+
+  .form_btn {
+    margin-left: 200px;
+    align-items: center;
+    align-content: center;
   }
 }
