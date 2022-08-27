@@ -442,46 +442,46 @@ button.form_btn:hover {
     width: auto;
   }
 
-.contenido-lenguajes {
-  display: flex;
-}
+  .contenido-lenguajes {
+    display: flex;
+  }
 
-.form {
-  display: flex;
-  background-image: url(../img/contact-background-big.png);
-  background-repeat: no-repeat;
-  width: 1220px;
-  align-items: center;
-}
+  .form {
+    display: flex;
+    background-image: url(../img/contact-background-big.png);
+    background-repeat: no-repeat;
+    width: 1220px;
+    align-items: center;
+  }
 
-.form-control {
-  display: flex;
-  width: 569px;
-}
+  .form-control {
+    display: flex;
+    width: 569px;
+  }
 
-.form-p {
-  display: flex;
-  width: 569px;
-}
+  .form-p {
+    display: flex;
+    width: 569px;
+  }
 
-.title1 {
-  display: flex;
-  color: white;
-  width: 569px;
-  font-size: 40px;
-}
+  .title1 {
+    display: flex;
+    color: white;
+    width: 569px;
+    font-size: 40px;
+  }
 
-.form-container {
-  display: flex;
-  width: auto;
-}
+  .form-container {
+    display: flex;
+    width: auto;
+  }
 
-.contenido-form {
-  display: flex;
-  width: 569px;
-}
+  .contenido-form {
+    display: flex;
+    width: 569px;
+  }
 
-.hero {
-  height: 916px;
-}
+  .hero {
+    height: 916px;
+  }
 }
