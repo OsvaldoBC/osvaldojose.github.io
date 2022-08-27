@@ -18,19 +18,11 @@ body {
 
 .box-menu-1 {
   display: none;
+  display: flex;
+  gap: 30px;
 }
 
-@media (min-width: 768px) {
-  .box-menu {
-    display: none;
-  }
-
-  .box-menu-1 {
-    display: flex;
-    gap: 30px;
-  }
-
-  .box-menu-1 a {
+.box-menu-1 a {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -73,15 +65,6 @@ body {
   height: 780px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    display: flex;
-    background-image: url(../img/header-big.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-}
-
 .hero {
   display: flex;
   width: 100%;
@@ -99,28 +82,15 @@ body {
   padding-left: 24px;
 }
 
-@media (min-width: 768px) {
-  .title {
-    margin-left: 150px;
-    margin-top: 1px;
-    padding-top: 1px;
-  }
-}
-
 .description {
   display: flex;
   color: #344563;
   font-size: 16px;
-  padding-left: 24px;
+  margin-left: 24px;
+  padding-left: 10px;
   padding-right: 24px;
 }
 
-@media (min-width: 768px) {
-  .description {
-    margin-left: 150px;
-    padding-right: 300px;
-  }
-}
 
 .connect {
   display: flex;
@@ -129,24 +99,12 @@ body {
   padding-left: 24px;
 }
 
-@media (min-width: 768px) {
-  .connect {
-    margin-left: 150px;
-  }
-}
-
 .social-media {
   display: flex;
   gap: 15px;
   color: #fff5e1;
   margin-top: 20px;
-  padding-left: 10px;
-}
-
-@media (min-width: 768px) {
-  .social-media {
-    margin-left: 150px;
-  }
+  padding-left: 24px;
 }
 
 ul {
@@ -168,6 +126,7 @@ ul {
   border: 10px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
+  justify-content: space-around;
 }
 
 .card1 {
@@ -179,6 +138,7 @@ ul {
   border-radius: 16px;
   background-color: #fff;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .portfolio {
@@ -479,11 +439,13 @@ button.form_btn:hover {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
+    justify-content: space-around;
   }
 
   .card1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
 
   .project-detail {
@@ -565,4 +527,47 @@ button.form_btn:hover {
     align-items: center;
     align-content: center;
   }
+
+  .description {
+    display: flex;
+    color: #344563;
+    font-size: 16px;
+    margin-left: 260px;
+    padding-left: 10px;
+    padding-right: 24px;
+  }
+
+  .connect {
+    margin-left: 24px;
+    padding-left: 0px;
+    }
+
+  .social-media {
+    margin-left: 24px;
+    padding-left: 0px;
+      }
+
+  .title {
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-left: 260px;
+    padding-left: 10px;
+    }
+
+  .box-menu {
+    display: none;
+      }
+
+  .container {
+    display: flex;
+    background-image: url(../img/header-big.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+    .devl {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
 }
