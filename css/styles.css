@@ -120,8 +120,7 @@ ul {
 }
 
 .container1 {
-<<<<<<< HEAD
-  width: 100%;
+  width:auto;
   height: auto;
 }
 
@@ -141,20 +140,6 @@ ul {
   display: flex;
   height: auto;
   width: 100%;
-=======
-  display: flex;
-  width: 100%;
-  height: auto;
-  gap: 142px;
-}
-
-.card {
-  display: flex;
-  height: auto;
-  width: 100%;
-  flex-direction: column;
-  flex-wrap: wrap;
->>>>>>> d09e86cad6dc06ec8bce520008a3449e9ba0214f
   padding: 16px;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
@@ -162,13 +147,10 @@ ul {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
 .contenido-lenguajes{
   display flex:
 }
 
-=======
->>>>>>> d09e86cad6dc06ec8bce520008a3449e9ba0214f
 .portfolio {
   display: flex;
 }
@@ -176,25 +158,6 @@ ul {
 .portfolio1 {
   display: flex;
   display: none;
-<<<<<<< HEAD
-=======
-}
-
-@media (min-width: 768px) {
-  .portfolio {
-    display: flex;
-    display: none;
-  }
-
-  .portfolio1 {
-    display: flex;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-  }
->>>>>>> d09e86cad6dc06ec8bce520008a3449e9ba0214f
 }
 
 .contenido-desktop{
@@ -427,7 +390,6 @@ button.form_btn:hover {
   grid-template-rows: 25% 25% 25% 25%;
   row-gap: 20px;
 }
-<<<<<<< HEAD
 
 .contenido-form {
   display: flex;
@@ -526,5 +488,3 @@ button.form_btn:hover {
 }
 
 }
-=======
->>>>>>> d09e86cad6dc06ec8bce520008a3449e9ba0214f
