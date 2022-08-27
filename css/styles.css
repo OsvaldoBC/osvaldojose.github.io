@@ -66,9 +66,8 @@ body {
 .container {
   display: flex;
   width: 100%;
-  height: auto;
   background-image: url(../img/header-shapes.png);
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 780px;
@@ -97,7 +96,7 @@ body {
   color: #172b4d;
   font-size: 40px;
   padding-top: 100px;
-  padding-left: 24px
+  padding-left: 24px;
 }
 
 @media (min-width: 768px) {
@@ -182,9 +181,6 @@ ul {
   flex-direction: column;
 }
 
-.contenido-lenguajes {
-  display: flex;
-}
 
 .portfolio {
   display: flex;
@@ -338,7 +334,6 @@ ul {
   margin-left: 24px;
   width: auto;
   margin-right: 30px;
-
 }
 
 .my-resume-button {
@@ -487,11 +482,6 @@ button.form_btn:hover {
     flex-wrap: nowrap;
   }
 
-  /*.card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  } */
 
   .card1 {
     display: flex;
@@ -538,9 +528,9 @@ button.form_btn:hover {
   }
 
   .contenido-lenguajes {
-      display: flex;
-      flex-direction: row;
-    }
+    display: flex;
+    flex-direction: row;
+  }
 
   .form {
     display: flex;
