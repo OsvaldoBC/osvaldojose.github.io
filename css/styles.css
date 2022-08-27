@@ -18,16 +18,6 @@ body {
 
 .box-menu-1 {
   display: none;
-  display: flex;
-  gap: 30px;
-}
-
-.box-menu-1 a {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  text-decoration: none;
-  color: #344563;
 }
 
 .logo-osvaldo {
@@ -104,6 +94,24 @@ body {
   margin-top: 20px;
   padding-left: 24px;
 }
+
+.connect1 {
+  display: flex;
+  color: #7f8cff;
+  font-size: 16px;
+  padding-left: 1px;
+}
+
+.social-media1 {
+  display: flex;
+  gap: 15px;
+  color: #fff5e1;
+  margin-top: 20px;
+  padding-left: 1px;
+}
+
+
+
 
 ul {
   list-style-type: none;
@@ -498,13 +506,12 @@ button.form_btn:hover {
 
   .form-p {
     display: flex;
-    width: 569px;
+    align-content: center;
   }
 
   .title1 {
     display: flex;
     color: white;
-    width: 569px;
     font-size: 40px;
   }
 
@@ -530,11 +537,21 @@ button.form_btn:hover {
   .connect {
     margin-left: 24px;
     padding-left: 1px;
+    margin-left: 260px;
+  }
+
+  .connect1{
+    margin-left: 24px;
+  }
+
+  .social-media1 {
+    margin-left: 24px;
   }
 
   .social-media {
     margin-left: 24px;
     padding-left: 1px;
+    margin-left: 260px;
   }
 
   .title {
@@ -559,5 +576,22 @@ button.form_btn:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .box-menu-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 20px;
+    color: #344563;
+  }
+
+  .box-menu-1 a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    color: #344563;
   }
 }
