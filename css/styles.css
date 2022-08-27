@@ -23,11 +23,11 @@ body {
 }
 
 .box-menu-1 a {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    text-decoration: none;
-    color: #344563;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-decoration: none;
+  color: #344563;
   }
 
 .logo-osvaldo {
@@ -89,7 +89,6 @@ body {
   padding-left: 10px;
   padding-right: 24px;
 }
-
 
 .connect {
   display: flex;
@@ -467,10 +466,6 @@ button.form_btn:hover {
     width: 500px;
   }
 
-  .connect {
-    margin-left: 10px;
-  }
-
   .social-media {
     margin-left: 10px;
   }
@@ -543,30 +538,30 @@ button.form_btn:hover {
 
   .social-media {
     margin-left: 24px;
-    padding-left: 0px;
-      }
+    padding-left: 1px;
+  }
 
   .title {
     margin-top: 1px;
     padding-top: 1px;
     margin-left: 260px;
     padding-left: 10px;
-    }
+  }
 
   .box-menu {
     display: none;
-      }
+  }
 
   .container {
     display: flex;
     background-image: url(../img/header-big.png);
     background-repeat: no-repeat;
     background-size: contain;
-    }
+  }
 
     .devl {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-    }
+  }
 }
