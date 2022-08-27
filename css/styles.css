@@ -110,9 +110,6 @@ body {
   padding-left: 1px;
 }
 
-
-
-
 ul {
   list-style-type: none;
 }
@@ -535,12 +532,11 @@ button.form_btn:hover {
   }
 
   .connect {
-    margin-left: 24px;
     padding-left: 1px;
     margin-left: 260px;
   }
 
-  .connect1{
+  .connect1 {
     margin-left: 24px;
   }
 
@@ -549,7 +545,6 @@ button.form_btn:hover {
   }
 
   .social-media {
-    margin-left: 24px;
     padding-left: 1px;
     margin-left: 260px;
   }
