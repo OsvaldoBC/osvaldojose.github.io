@@ -20,25 +20,6 @@ body {
   display: none;
 }
 
-@media (min-width: 768px) {
-  .box-menu {
-    display: none;
-  }
-
-  .box-menu-1 {
-    display: flex;
-    gap: 30px;
-  }
-
-  .box-menu-1 a {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    text-decoration: none;
-    color: #344563;
-  }
-}
-
 .logo-osvaldo {
   text-decoration: none;
   height: 20px;
@@ -66,18 +47,11 @@ body {
 .container {
   display: flex;
   width: 100%;
-  height: auto;
   background-image: url(../img/header-shapes.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-}
-
-@media (min-width: 768px) {
-  .container {
-    display: flex;
-    background-image: url(../img/header-big.png);
-    background-repeat: no-repeat;
-  }
+  background-position: center;
+  height: 780px;
 }
 
 .hero {
@@ -93,26 +67,47 @@ body {
   display: flex;
   color: #172b4d;
   font-size: 40px;
+  padding-top: 100px;
+  padding-left: 24px;
 }
 
 .description {
   display: flex;
   color: #344563;
   font-size: 16px;
+  margin-left: 24px;
+  padding-left: 10px;
+  padding-right: 24px;
 }
 
 .connect {
   display: flex;
   color: #7f8cff;
   font-size: 16px;
+  padding-left: 24px;
 }
 
 .social-media {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   color: #fff5e1;
   margin-top: 20px;
-  padding: 0;
+  padding-left: 24px;
+}
+
+.connect1 {
+  display: flex;
+  color: #7f8cff;
+  font-size: 16px;
+  padding-left: 1px;
+}
+
+.social-media1 {
+  display: flex;
+  gap: 15px;
+  color: #fff5e1;
+  margin-top: 20px;
+  padding-left: 1px;
 }
 
 ul {
@@ -120,10 +115,8 @@ ul {
 }
 
 .container1 {
-  display: flex;
-  width: 100%;
+  width: auto;
   height: auto;
-  gap: 142px;
 }
 
 .card {
@@ -133,9 +126,22 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 16px;
+  border: 10px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: #fff;
+  justify-content: space-around;
+}
+
+.card1 {
+  display: flex;
+  height: auto;
+  width: 100%;
+  padding: 16px;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .portfolio {
@@ -147,20 +153,8 @@ ul {
   display: none;
 }
 
-@media (min-width: 768px) {
-  .portfolio {
-    display: flex;
-    display: none;
-  }
-
-  .portfolio1 {
-    display: flex;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-  }
+.contenido-desktop {
+  display: none;
 }
 
 .tonic {
@@ -176,14 +170,13 @@ ul {
 .info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   text-align: left;
   font-weight: 700;
   margin-top: 1px;
   margin-right: 1px;
   margin-bottom: 1px;
-  padding-left: 1px;
+  gap: 20px;
+  padding-left: 20px;
 }
 
 .project-detail {
@@ -191,7 +184,8 @@ ul {
   color: #344563;
   font-size: 15px;
   margin-right: 24px;
-  height: 36px;
+  height: auto;
+  width: auto;
   margin-left: 16px;
   margin-top: 1px;
 }
@@ -240,6 +234,28 @@ ul {
   font-size: 19px;
 }
 
+.see1 {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 1px 8px 16px #4053fc42;
+  font-size: 17px;
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-left: 16px;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+.see1:hover {
+  background-color: #fff;
+  color: #396df2;
+  box-shadow: 1px 8px 16px #4053fc42;
+  font-size: 19px;
+}
+
 .project2 {
   margin-left: 16px;
 }
@@ -255,7 +271,7 @@ ul {
   line-height: 44px;
 }
 
-.garden2 {
+.card2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-columns: minmax(300px, 327px);
@@ -278,6 +294,8 @@ ul {
   font-size: 16px;
   color: #344563;
   margin-left: 24px;
+  width: auto;
+  margin-right: 30px;
 }
 
 .my-resume-button {
@@ -290,6 +308,11 @@ ul {
   font-size: 17px;
   font-weight: 700;
   margin-left: 16px;
+}
+
+.my-resume-button:hover {
+  color: #fff;
+  background-color: #6070ff;
 }
 
 .languages {
@@ -325,17 +348,20 @@ ul {
 }
 
 .form-container {
-  display: grid;
-  grid-template-rows: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .form {
   display: flex;
   background-image: url(../img/contact-form-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
   flex-direction: column;
   padding: 16px;
   width: auto;
-  height: auto;
+  height: 780px;
   border: 2px solid #dfe1e6;
   border-radius: 50px 0 0 0;
   background-color: #6070ff;
@@ -385,4 +411,182 @@ button.form_btn:hover {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
   row-gap: 20px;
+}
+
+.contenido-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido-lenguajes {
+  display: flex;
+  flex-direction: column;
+}
+
+/*      Desktop Style     */
+
+@media (min-width: 768px) {
+  .portfolio {
+    display: flex;
+    display: none;
+  }
+
+  .portfolio1 {
+    display: flex;
+    width: auto;
+  }
+
+  .card-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .project-detail {
+    width: 569px;
+  }
+
+  .contenido1 {
+    display: flex;
+    width: 40%;
+    height: auto;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .about-me {
+    margin-top: 30px;
+  }
+
+  .about {
+    width: 500px;
+  }
+
+  .contenido-mobil {
+    display: none;
+  }
+
+  .contenido-desktop {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .contenido-lenguajes {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form {
+    display: flex;
+    background-image: url(../img/contact-background-big.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    align-items: center;
+  }
+
+  .form-control {
+    display: flex;
+    width: 569px;
+  }
+
+  .form-p {
+    display: flex;
+    align-content: center;
+  }
+
+  .title1 {
+    display: flex;
+    color: white;
+    font-size: 40px;
+  }
+
+  .hero {
+    height: 916px;
+  }
+
+  .form_btn {
+    margin-left: 200px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .description {
+    display: flex;
+    color: #344563;
+    font-size: 16px;
+    margin-left: 260px;
+    padding-left: 10px;
+    padding-right: 24px;
+  }
+
+  .connect {
+    padding-left: 1px;
+    margin-left: 260px;
+  }
+
+  .connect1 {
+    margin-left: 24px;
+  }
+
+  .social-media1 {
+    margin-left: 24px;
+  }
+
+  .social-media {
+    padding-left: 1px;
+    margin-left: 260px;
+  }
+
+  .title {
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-left: 260px;
+    padding-left: 10px;
+  }
+
+  .box-menu {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    background-image: url(../img/header-big.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .devl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .box-menu-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 20px;
+    color: #344563;
+  }
+
+  .box-menu-1 a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    color: #344563;
+  }
 }
