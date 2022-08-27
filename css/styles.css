@@ -529,7 +529,7 @@ button.form_btn:hover {
 
   .connect {
     margin-left: 24px;
-    padding-left: 0px;
+    padding-left: 1px;
   }
 
   .social-media {
@@ -555,9 +555,9 @@ button.form_btn:hover {
     background-size: contain;
   }
 
-    .devl {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+  .devl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
