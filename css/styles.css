@@ -160,10 +160,9 @@ ul {
   display: none;
 }
 
-.contenido-desktop{
-  display:none;
+.contenido-desktop {
+  display: none;
 }
-
 
 .tonic {
   align-items: flex-start;
@@ -280,7 +279,6 @@ ul {
   font-size: 16px;
   color: #344563;
   margin-left: 24px;
-
 }
 
 .my-resume-button {
@@ -423,10 +421,10 @@ button.form_btn:hover {
   }
 
   .project-detail {
-    width: 569px
+    width: 569px;
   }
 
-  .contenido1{
+  .contenido1 {
     display: flex;
     width: 50%;
     height: auto;
@@ -445,26 +443,25 @@ button.form_btn:hover {
   }
 
 .contenido-lenguajes {
-    display: flex;
+  display: flex;
 }
 
 .form {
-    display: flex;
-    background-image: url(../img/contact-background-big.png);
-    background-repeat: no-repeat;
-    width: 1220px;
-    align-items: center;
+  display: flex;
+  background-image: url(../img/contact-background-big.png);
+  background-repeat: no-repeat;
+  width: 1220px;
+  align-items: center;
 }
 
 .form-control {
-    display: flex;
-    width: 569px;
+  display: flex;
+  width: 569px;
 }
 
 .form-p {
-    display: flex;
-    width: 569px;
-
+  display: flex;
+  width: 569px;
 }
 
 .title1 {
@@ -483,8 +480,8 @@ button.form_btn:hover {
   display: flex;
   width: 569px;
 }
+
 .hero {
   height: 916px;
 }
-
 }
