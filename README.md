@@ -11,8 +11,7 @@ git clone git@github.com:OsvaldoBC/portfolio-setup.git
 - Bootstrap
 - Node.js
 ## External LINK
-[
-](https://osvaldobc.github.io/osvaldojose.github.io/)
+[External link:](https://osvaldobc.github.io/osvaldojose.github.io/)
 
 ## Authors
 
