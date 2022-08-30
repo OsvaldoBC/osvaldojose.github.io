@@ -5,13 +5,15 @@
 The steps to clone and the project locally is :
 git clone git@github.com:OsvaldoBC/portfolio-setup.git
 
+# usage
+
+ Please use this link to see this project https://osvaldobc.github.io/osvaldojose.github.io/
+
 ## Built With
 
 - HTML and CSS
 - Bootstrap
 - Node.js
-## External LINK
-[External link:](https://osvaldobc.github.io/osvaldojose.github.io/)
 
 ## Authors
 
